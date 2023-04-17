@@ -3,11 +3,11 @@ import React, { useState } from 'react'
 const Form = () => {
         // more than one state
           //  getter,   setter!
-    const [firstName, setFirstName] = useState("first name")
-    const [lastName, setLastName] = useState("last name")
-    const [email, setEmail] = useState("email")
-    const [password, setPassword] = useState("password ")
-    const [confirmPassword, setConfirmPassword] = useState("confirm password")
+    const [firstName, setFirstName] = useState("")
+    const [lastName, setLastName] = useState("")
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
+    const [confirmPassword, setConfirmPassword] = useState("")
   return (
     <div>
         <div className='row'>
@@ -48,7 +48,5 @@ const Form = () => {
     </div>
   )
 }
-
-
 
 export default Form  
