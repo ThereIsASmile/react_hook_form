@@ -80,7 +80,7 @@ return (
                     <p>Password must be more than 8 characters.</p>
                     ) : null
                 }
-                {user.confirmPasswordObject !== user.passwordObject ? (<p>Passwords does not match.</p>
+                {user.confirmPasswordObject !== user.passwordObject ? (<p>Passwords do not match.</p>
                 ): null}
 
             </div>
