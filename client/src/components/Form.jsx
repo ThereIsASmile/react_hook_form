@@ -12,8 +12,8 @@ const Form = () => {
     <div>
         <div className='row'>
             
-            <form action="" className="col-md-4 offset-2  mt-5 pt-3 pb-3 bg-primary text-white">
-            <h2>More than one state</h2>
+            <form action="" className="col-md-4 offset-2  mt-5 pt-3 pb-3 bg-primary text-white rounded">
+            <h2>Made with 5 State Variables</h2>
                 <div className='form-group'>
                     <label htmlFor="firstName">First Name</label>
                     <input type="text" name="firstName" className="form-control" onChange={(e) => setFirstName(e.target.value)}/>
@@ -36,7 +36,7 @@ const Form = () => {
                 </div>
             </form>
             {/* Display in real time form data */}
-            <div className='col-md-4 offset-1 mt-5 pt-3 pb-3 bg-primary text-white'>
+            <div className='col-md-4 offset-1 mt-5 pt-3 pb-3 bg-primary text-white rounded'>
                 <h2>Display Form Data</h2>
                 <p>First Name: {firstName}</p>
                 <p>Last Name: {lastName}</p>

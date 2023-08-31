@@ -22,10 +22,10 @@ return (
 <div>
     <div className='row'>
         
-        <form action="" className="col-md-4 offset-2  mt-5 pt-3 pb-3 bg-success text-white">
-        <h2>Only one state </h2>
+        <form action="" className="col-md-4 offset-2  mt-5 pt-3 pb-3 bg-success text-white rounded">
+        <h2>Only one State Variable</h2>
         <p>made with an object of keys and values.</p>
-        <p>It uses one change handler.</p>
+        <p>Uses a changeHandler.</p>
             <div className='form-group'>
                 <label htmlFor="firstNameObject">First Name</label>
 
@@ -87,7 +87,7 @@ return (
             </div>
         </form>
         {/* Display in real time form data */}
-        <div className='col-md-4 offset-1 mt-5 pt-3 pb-3 bg-success text-white'>
+        <div className='col-md-4 offset-1 mt-5 pt-3 pb-3 bg-success text-white rounded'>
             <h2>Display Form Data</h2>
             <p>First Name: {user.firstNameObject}</p>
             <p>Last Name: {user.lastNameObject}</p>
